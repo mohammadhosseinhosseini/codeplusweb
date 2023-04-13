@@ -5,4 +5,4 @@ deployment:
     - /usr/local/bin/npm install
     - /usr/local/bin/npm run build
     - export DEPLOYPATH=/home/nextend1/public_html/
-    - /bin/cp -r build/ $DEPLOYPATH
+    # - /bin/cp -r build/ $DEPLOYPATH
